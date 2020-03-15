@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blogspot.chunkingz.eat_it2">
+    package="com.shukri.chunkingz.eat_it2">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.shukri.chunkingz.eat_it2.MainActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,25 +21,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUp"
+            android:name="com.shukri.chunkingz.eat_it2.SignUp"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".Home"
+            android:name="com.shukri.chunkingz.eat_it2.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".ThankYou" />
-        <activity android:name=".ForgotPassword" />
-        <activity android:name=".Cart" />
-        <activity android:name=".UserProfile" />
-        <activity android:name=".UserFeedback" />
-        <activity android:name=".OrderStatus" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.ThankYou" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.ForgotPassword" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.Cart" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.UserProfile" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.UserFeedback" />
+        <activity android:name="com.shukri.chunkingz.eat_it2.OrderStatus" />
         <activity
-            android:name=".About"
+            android:name="com.shukri.chunkingz.eat_it2.About"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ContactUs2"
+            android:name="com.shukri.chunkingz.eat_it2.ContactUs2"
             android:label="@string/title_activity_contact_us2"
             android:theme="@style/AppTheme" />
     </application>

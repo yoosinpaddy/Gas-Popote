@@ -42,7 +42,7 @@
     <string name="homeSizePlusText"> + </string>
     <string name="homeSizeEqualsText"> = </string>
     <string name="homeSizeKGsumText"> 0 </string>
-    <string name="homePriceText"> N </string>
+    <string name="homePriceText">KShs </string>
     <string name="homeMultilineText"> Extra Comments / Closest Landmark </string>
 
     <string name="hintPassword">Password </string>
